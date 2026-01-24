@@ -57,10 +57,10 @@ export default function HomeScreen() {
       {/* UI Controls */}
       <View style={styles.controlsContainer}>
         <View style={styles.infoContainer}>
-          <Text style={[styles.infoText, { color: textColor }]}>
+          <Text style={[styles.infoText, { color: "#4ECDC4" }]}>
             Objects: {instances.length}
           </Text>
-          <Text style={[styles.hintText, { color: textColor, opacity: 0.7 }]}>
+          <Text style={[styles.hintText, { color: "#4ECDC4", opacity: 0.9 }]}>
             Tap objects to see their biology in console
           </Text>
         </View>
