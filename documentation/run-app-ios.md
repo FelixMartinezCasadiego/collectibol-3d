@@ -59,27 +59,22 @@
 
    You should see your iPhone listed under "== Devices ==" with its name and iOS version.
 
-2. **Start the Expo project**
+2. **Run the app on your physical iPhone**
 
-   In the project directory:
+   **Option A - With device name (recommended):**
+   1. Install the **Expo Go** app from the App Store on your iPhone.
+
+   2. On your computer, inside the project directory, run:
 
    ```bash
    npm start
    ```
 
-3. **Run the app on your physical iPhone**
+   3. Scan the QR code that appears in the terminal or on the Expo web page using the Expo Go app on your iPhone.
 
-   **Option A - With device name (recommended):**
+   4. The app will automatically open on your physical device and you will see the application running in real time.
 
-   ```bash
-   npm run ios -- --device "Your iPhone Name"
-   ```
-
-   Example:
-
-   ```bash
-   npm run ios -- --device "iPhone de Ernesto"
-   ```
+   ````
 
    **Option B - Auto-detect (if only one device connected):**
 
@@ -87,28 +82,30 @@
    npm run ios -- --device
    ```
 
-4. **First-time setup: Trust the developer profile**
+   ````
+
+3. **First-time setup: Trust the developer profile**
 
    If this is your first time running the app on this iPhone:
 
-   a. The app will install but may not open
+   a. The app may install but not open automatically.
 
    b. On your iPhone, go to:
    - **Settings > General > VPN & Device Management**
    - Or **Settings > General > Device Management**
 
-   c. Find your Apple ID or developer profile
+   c. Find your Apple ID or developer profile.
 
-   d. Tap **"Trust [Your Name]"**
+   d. Tap **"Trust [Your Name]"**.
 
-   e. Tap **"Trust"** again to confirm
+   e. Tap **"Trust"** again to confirm.
 
-5. **Wait for compilation and installation**
+4. **Wait for compilation and installation**
    - First compilation: 3-5 minutes
    - Subsequent runs: 1-2 minutes
    - The app will open automatically when ready
 
-6. **Verify the app is running**
+5. **Verify the app is running**
 
    You should see:
    - ✅ 3D objects rendering with realistic materials
@@ -137,6 +134,7 @@
 - On iPhone: Settings > General > Device Management
 - Trust your developer profile
 
+npm run ios -- --device
 **❌ Build fails with provisioning errors**
 
 ```bash
