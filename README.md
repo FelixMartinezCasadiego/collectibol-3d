@@ -1,14 +1,5 @@
 # Collectibol 3D - Procedural 3D Object Generator 🎨✨
 
-## 📱 Running on Devices
-
-See the documentation to run the app on your device:
-
-- [How to run the app on iOS](documentation/run-app-ios.md)
-- [How to run the app on an Android emulator](documentation/run-app-android-emulator.md)
-
-React Native + Expo application that generates and visualizes procedural 3D objects using react-three/fiber.
-
 ## 📦 Technologies Used
 
 - **Expo SDK** (latest stable version)
@@ -52,10 +43,13 @@ React Native + Expo application that generates and visualizes procedural 3D obje
    ```
 
 4. **Run options**
-   - Press `i` for iOS Simulator
-   - Press `a` for Android Emulator
-   - Scan the QR with Expo Go (limited for 3D features)
-   - **Recommended**: Use a development build for better 3D performance
+
+   See the documentation to run the app:
+
+- [How to run the app on iOS](documentation/run-app-ios.md)
+- [How to run the app on an Android emulator](documentation/run-app-android-emulator.md)
+
+React Native + Expo application that generates and visualizes procedural 3D objects using react-three/fiber.
 
 ## 🎮 How to Use
 
