@@ -55,24 +55,6 @@ export default function TabTwoScreen() {
           </Text>
         </View>
 
-        <View style={styles.uniformsSection}>
-          <Text style={[styles.uniformsTitle, { color: textColor }]}>
-            Shader Uniforms:
-          </Text>
-          <Text style={[styles.uniform, { color: textColor, opacity: 0.7 }]}>
-            u_time - Elapsed time for animations
-          </Text>
-          <Text style={[styles.uniform, { color: textColor, opacity: 0.7 }]}>
-            u_color - Base color (cyan)
-          </Text>
-          <Text style={[styles.uniform, { color: textColor, opacity: 0.7 }]}>
-            u_pulseSpeed - Animation speed (2.0)
-          </Text>
-          <Text style={[styles.uniform, { color: textColor, opacity: 0.7 }]}>
-            u_pulseIntensity - Displacement strength (0.3)
-          </Text>
-        </View>
-
         <Text style={[styles.interaction, { color: textColor, opacity: 0.6 }]}>
           💡 Drag to rotate • Pinch to zoom
         </Text>
@@ -123,24 +105,6 @@ const styles = StyleSheet.create({
   },
   bold: {
     fontWeight: "600",
-  },
-  uniformsSection: {
-    marginTop: 8,
-    marginBottom: 16,
-    paddingTop: 12,
-    borderTopWidth: 1,
-    borderTopColor: "#333",
-  },
-  uniformsTitle: {
-    fontSize: 14,
-    fontWeight: "600",
-    marginBottom: 8,
-  },
-  uniform: {
-    fontSize: 12,
-    fontFamily: "monospace",
-    marginLeft: 8,
-    marginBottom: 4,
   },
   interaction: {
     fontSize: 12,
