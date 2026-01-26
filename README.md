@@ -109,4 +109,6 @@ The system generates objects with controlled random parameters:
 - **Shader demo**: Custom GLSL shader object always visible
 - **Mobile optimization**: Designed to run smoothly on mobile devices
 
----
+## 📹 Demo in Action
+
+![Demo](assets/gif/gif_1.gif)
